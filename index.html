@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JobSeek - Your Next Opportunity Starts Here</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      background-color: #f8f9fb;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #ffffff;
+      padding: 1.5rem 2rem;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #0f62fe;
+    }
+
+    nav a {
+      margin-left: 1.5rem;
+      text-decoration: none;
+      color: #555;
+      font-weight: 500;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 4rem 2rem;
+      background: linear-gradient(120deg, #dfefff, #ffffff);
+    }
+
+    .hero h1 {
+      font-size: 2.75rem;
+      font-weight: 700;
+      color: #0f62fe;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      color: #444;
+      margin-bottom: 2rem;
+    }
+
+    .cta-button {
+      background-color: #0f62fe;
+      color: #fff;
+      border: none;
+      padding: 0.85rem 2rem;
+      font-size: 1rem;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .cta-button:hover {
+      background-color: #0049c6;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      padding: 4rem 2rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .feature-card {
+      background: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.05);
+    }
+
+    .feature-card h3 {
+      color: #0f62fe;
+      margin-bottom: 0.5rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">JobSeek</div>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Your Next Opportunity Starts Here</h1>
+    <p>JobSeek connects job seekers with roles that match their skills, values, and lifestyle preferences.</p>
+    <button class="cta-button">Get Early Access</button>
+  </section>
+
+  <section class="features" id="features">
+    <div class="feature-card">
+      <h3>Smart Matching</h3>
+      <p>Our algorithm pairs you with opportunities tailored to your background and goals.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Transparent Hiring</h3>
+      <p>Understand company culture, benefits, and expectations before you apply.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Career Coaching</h3>
+      <p>Access expert guidance to sharpen your resume and prepare for interviews.</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 JobSeek. All rights reserved.
+  </footer>
+</body>
+</html>
